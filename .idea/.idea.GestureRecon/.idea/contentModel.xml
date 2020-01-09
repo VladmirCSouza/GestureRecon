@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_GestureRecon.1405053668.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ElvisGestureRecognition.cs" t="Include" />
+        <e p="PDollar" t="Include">
+          <e p="Resources" t="Include">
+            <e p="GestureSet" t="Include">
+              <e p="10-stylus-MEDIUM" t="Include">
+                <e p="10-stylus-medium-arrowhead-01.xml" t="Include" />
+                <e p="10-stylus-medium-asterisk-01.xml" t="Include" />
+                <e p="10-stylus-medium-D-01.xml" t="Include" />
+                <e p="10-stylus-medium-exclamation_point-01.xml" t="Include" />
+                <e p="10-stylus-medium-five_point_star-01.xml" t="Include" />
+                <e p="10-stylus-medium-H-01.xml" t="Include" />
+                <e p="10-stylus-medium-half_note-01.xml" t="Include" />
+                <e p="10-stylus-medium-I-01.xml" t="Include" />
+                <e p="10-stylus-medium-line-01.xml" t="Include" />
+                <e p="10-stylus-medium-N-01.xml" t="Include" />
+                <e p="10-stylus-medium-null-01.xml" t="Include" />
+                <e p="10-stylus-medium-P-01.xml" t="Include" />
+                <e p="10-stylus-medium-pitchfork-01.xml" t="Include" />
+                <e p="10-stylus-medium-six_point_star-01.xml" t="Include" />
+                <e p="10-stylus-medium-T-01.xml" t="Include" />
+                <e p="10-stylus-medium-X-01.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Demo.cs" t="Include" />
+            <e p="GesturesRecon.cs" t="Include" />
+            <e p="PDollarGestureRecognizer" t="Include">
+              <e p="Geometry.cs" t="Include" />
+              <e p="Gesture.cs" t="Include" />
+              <e p="GestureIO.cs" t="Include" />
+              <e p="Point.cs" t="Include" />
+              <e p="PointCloudRecognizer.cs" t="Include" />
+              <e p="Result.cs" t="Include" />
+            </e>
+            <e p="PlayerGestureRecon.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="GestureRecon.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

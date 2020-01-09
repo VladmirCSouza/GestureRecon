@@ -95,12 +95,31 @@ public class Demo : MonoBehaviour {
 				currentGestureLineRenderer.SetVertexCount(++vertexCount);
 				currentGestureLineRenderer.SetPosition(vertexCount - 1, Camera.main.ScreenToWorldPoint(new Vector3(virtualKeyPosition.x, virtualKeyPosition.y, 10)));
 			}
+
+			if (Input.GetMouseButtonUp(0) && !recognized)
+			{
+				recognized = true;
+
+				Gesture candidate = new Gesture(points.ToArray());
+				Result gestureResult = PointCloudRecognizer.Classify(candidate, trainingSet.ToArray());
+			
+				message = gestureResult.GestureClass + " " + gestureResult.Score;
+				elvisGestureRecognition.SetElvisAnimationByGesture(gestureResult.GestureClass);
+				
+				foreach (LineRenderer lineRenderer in gestureLinesRenderer) {
+
+					lineRenderer.SetVertexCount(0);
+					Destroy(lineRenderer.gameObject);
+				}
+
+				gestureLinesRenderer.Clear();
+			}
 		}
 	}
 
 	void OnGUI() {
 
-		GUI.Box(drawArea, "Draw Area");
+		 GUI.Box(drawArea, "Draw Area");
 
 		GUI.Label(new Rect(10, Screen.height - 40, 500, 50), message);
 
